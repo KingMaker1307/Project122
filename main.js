@@ -15,4 +15,8 @@ function draw() {
     rect(85,40,230,15,);
     rect(345,85,15,180,);
     rect(85,290,230,15,);
+    image(img,100,100,200,175);
+}
+function preload(){
+    img = loadImage("image.jpg");
 }
